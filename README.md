@@ -1,20 +1,10 @@
-# Third Person Platformer
+# COSC 416 Studio 4
 
-A simple third person character controller in Unity
+Link to the youtube video for the submission: (Click on the image below and it will redirect you to a youtube video)
+https://youtu.be/Xaz__rxP61k
+[![Studio 4](./Images/Screenshot%202025-03-06%20132306.png)](https://youtu.be/Xaz__rxP61k)
 
-## Demo
-
-https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
-
-## Cloning & Setting Up the Project
-
-1. Ensure you have
-	- **Unity Hub** (Download: [Unity Hub](https://unity.com/download))
-	- **Unity Version** (6000.0.31f1)
-	- **Git** ([Download Git](https://git-scm.com/)) or **Github Desktop** ([Download Github Desktop](https://desktop.github.com/download/))
-2. Clone the project via [Git](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli) or [Github Desktop](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=desktop)
-3. Open **Unity Hub**
-4. Click **"Open"** and select the cloned project folder (with Assets, ProjectSettings, Packages)
+Youtube link just in case: https://youtu.be/Xaz__rxP61k 
 
 ## Features
 
@@ -24,6 +14,8 @@ https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
 - Dash with Shift
 - Collect Coins by moving over them
 - Score Counter on the top right
+- Score counter has animation to in when incrementing
+- Ability to pause the game and access a settings menu
 
 ## Credits
 
