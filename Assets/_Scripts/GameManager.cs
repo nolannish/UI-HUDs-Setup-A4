@@ -41,7 +41,7 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         isSettingsMenuActive = true;
     }
 
-    private void DisableSettingsMenu(){
+    public void DisableSettingsMenu(){
         Time.timeScale = 1f;
         settingsMenu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
