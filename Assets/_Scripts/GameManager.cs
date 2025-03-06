@@ -1,4 +1,5 @@
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 
 public class GameManager : SingletonMonoBehavior<GameManager>
@@ -47,5 +48,13 @@ public class GameManager : SingletonMonoBehavior<GameManager>
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         isSettingsMenuActive = false;
+    }
+
+    public void QuitGame(){
+# if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+# else
+        Application.Quit();
+# endif
     }
 }
